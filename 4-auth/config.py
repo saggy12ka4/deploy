@@ -34,7 +34,7 @@ DATA_BACKEND = 'datastore'
 
 # Google Cloud Project ID. This can be found on the 'Overview' page at
 # https://console.developers.google.com
-PROJECT_ID = 'your-project-id'
+PROJECT_ID = 'bucket-200905'
 
 # CloudSQL & SQLAlchemy configuration
 # Replace the following values the respective values of your Cloud SQL
@@ -45,7 +45,7 @@ CLOUDSQL_DATABASE = 'bookshelf'
 # Set this value to the Cloud SQL connection name, e.g.
 #   "project:region:cloudsql-instance".
 # You must also update the value in app.yaml.
-CLOUDSQL_CONNECTION_NAME = 'your-cloudsql-connection-name'
+CLOUDSQL_CONNECTION_NAME = 'bucket-200905:us-central1:myinsta'
 
 # The CloudSQL proxy is used locally to connect to the cloudsql instance.
 # To start the proxy, use:
@@ -92,7 +92,7 @@ MONGO_URI = 'mongodb://user:password@host:27017/database'
 #
 # You can adjust the max content length and allow extensions settings to allow
 # larger or more varied file types if desired.
-CLOUD_STORAGE_BUCKET = 'your-bucket-name'
+CLOUD_STORAGE_BUCKET = 'my_999'
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
@@ -108,5 +108,5 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 # If you receive a invalid redirect URI error review you settings to ensure
 # that the current URI is allowed.
 GOOGLE_OAUTH2_CLIENT_ID = \
-    'your-client-id'
-GOOGLE_OAUTH2_CLIENT_SECRET = 'your-client-secret'
+    '845181809919-gk2b3ud62i78po7ro8ffg4kdtkpupipu.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'V8PjL7lGY3vLNPHmQOeZBCTX'
