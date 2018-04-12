@@ -26,7 +26,7 @@ runtime_config:
 beta_settings:
     # If using Cloud SQL, uncomment and set this value to the Cloud SQL
     # connection name, e.g.
-      "bucket-200905:us-central1:myinsta"
+    # "bucket-200905:us-central1:myinsta"
     # You must also update the values in config.py.
     #
-    # cloud_sql_instances: "your-cloudsql-connection-name"
+    cloud_sql_instances: "bucket-200905:us-central1:myinsta"
